@@ -3,8 +3,8 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
+
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="org.champlain.prog2.partneractivity.HelloController">
     <padding>
@@ -13,6 +13,6 @@
 
     <Label fx:id="welcomeText"/>
     <Button text="Hello!" onAction="#onHelloButtonClick"/>
-
     <Button text="Keren" onAction="#onKerenButtonClick"/>
+    <Button mnemonicParsing="false" onAction="#onSydneyButtonClick" text="Sydney" />
 </VBox>
